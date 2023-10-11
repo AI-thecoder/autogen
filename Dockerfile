@@ -1,4 +1,4 @@
-# basic setup for python
+# basic setup for python from feature branch
 FROM python:3.10
 RUN apt-get update && apt-get -y update
 RUN apt-get install -y sudo git npm
